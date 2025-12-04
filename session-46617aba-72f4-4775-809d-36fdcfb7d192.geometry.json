@@ -1,0 +1,2317 @@
+{
+  "sessionId": "46617aba-72f4-4775-809d-36fdcfb7d192",
+  "originalRecording": "session-46617aba-72f4-4775-809d-36fdcfb7d192.json",
+  "snapshots": [
+    {
+      "timestamp": 1764808954477,
+      "offsetMs": 0,
+      "route": null,
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808954977,
+      "offsetMs": 500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808955477,
+      "offsetMs": 1000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808955977,
+      "offsetMs": 1500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808956477,
+      "offsetMs": 2000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808956977,
+      "offsetMs": 2500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808957477,
+      "offsetMs": 3000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808957977,
+      "offsetMs": 3500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1335,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1471,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1559,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1624,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808958477,
+      "offsetMs": 4000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1311,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1495,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1583,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1648,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808958977,
+      "offsetMs": 4500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1311,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1495,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1583,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1648,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808959477,
+      "offsetMs": 5000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1311,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1391,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "*****",
+          "x": 1961,
+          "y": 1415,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1495,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1583,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1648,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808959977,
+      "offsetMs": 5500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1323,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1403,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "*****",
+          "x": 1961,
+          "y": 1427,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1483,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1571,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1636,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808960477,
+      "offsetMs": 6000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1323,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1403,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "*****",
+          "x": 1961,
+          "y": 1427,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1483,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in with Google",
+          "x": 1961,
+          "y": 1571,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1636,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808960977,
+      "offsetMs": 6500,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1323,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1403,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "*****",
+          "x": 1961,
+          "y": 1427,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1483,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Connecting...",
+          "x": 1961,
+          "y": 1571,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1636,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808961477,
+      "offsetMs": 7000,
+      "route": {
+        "pathname": "/login",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1323,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "button",
+          "role": null,
+          "text": "Forgot password?",
+          "x": 2258.21875,
+          "y": 1403,
+          "width": 100.78125,
+          "height": 16
+        },
+        {
+          "localId": 4,
+          "tag": "input",
+          "role": null,
+          "text": "*****",
+          "x": 1961,
+          "y": 1427,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "button",
+          "role": null,
+          "text": "Sign in",
+          "x": 1961,
+          "y": 1483,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "button",
+          "role": null,
+          "text": "Connecting...",
+          "x": 1961,
+          "y": 1571,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "a",
+          "role": null,
+          "text": "Sign up",
+          "x": 2213.3125,
+          "y": 1636,
+          "width": 48.6875,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808961977,
+      "offsetMs": 7500,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808962477,
+      "offsetMs": 8000,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808962977,
+      "offsetMs": 8500,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "you@example.com",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808963477,
+      "offsetMs": 9000,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808963977,
+      "offsetMs": 9500,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808964477,
+      "offsetMs": 10000,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808964977,
+      "offsetMs": 10500,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808965477,
+      "offsetMs": 11000,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808965977,
+      "offsetMs": 11500,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "timestamp": 1764808966477,
+      "offsetMs": 12000,
+      "route": {
+        "pathname": "/signup",
+        "search": "",
+        "hash": ""
+      },
+      "elements": [
+        {
+          "localId": 0,
+          "tag": "div",
+          "role": "region",
+          "text": "",
+          "x": 0,
+          "y": 0,
+          "width": 4320,
+          "height": 0
+        },
+        {
+          "localId": 1,
+          "tag": "button",
+          "role": null,
+          "text": "Download Session",
+          "x": 4115.21875,
+          "y": 2799,
+          "width": 184.78125,
+          "height": 45
+        },
+        {
+          "localId": 2,
+          "tag": "input",
+          "role": null,
+          "text": "John Doe",
+          "x": 1961,
+          "y": 1231.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 3,
+          "tag": "input",
+          "role": null,
+          "text": "sdsdcsd",
+          "x": 1961,
+          "y": 1319.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 4,
+          "tag": "button",
+          "role": "combobox",
+          "text": "Select your role",
+          "x": 1961,
+          "y": 1407.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 5,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1495.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 6,
+          "tag": "input",
+          "role": null,
+          "text": "••••••••",
+          "x": 1961,
+          "y": 1606.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 7,
+          "tag": "button",
+          "role": null,
+          "text": "Create account",
+          "x": 1961,
+          "y": 1662.5,
+          "width": 398,
+          "height": 40
+        },
+        {
+          "localId": 8,
+          "tag": "a",
+          "role": null,
+          "text": "Sign in",
+          "x": 2222.796875,
+          "y": 1727.5,
+          "width": 43.59375,
+          "height": 17
+        }
+      ]
+    }
+  ]
+}
