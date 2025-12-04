@@ -4,8 +4,12 @@ import "./index.css";
 import "./recorder"; // side-effect import for screen recording
 import posthog from 'posthog-js'
 
-posthog.init('phc_lu46ALUWXJCodQCUIvtQYNSV8LF8Znuqsi8bIQlRbe7', {
-  api_host: 'https://app.posthog.com',
-})
+// SSR-safe PostHog initialization
+if (typeof window !== 'undefined') {
+  posthog.init('phc_lu46ALUWXJCodQCUIvtQYNSV8LF8Znuqsi8bIQlRbe7', {
+    api_host: 'https://app.posthog.com',
+    capture_pageview: true,
+  })
+}
 
 createRoot(document.getElementById("root")!).render(<App />);
