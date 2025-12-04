@@ -1,0 +1,97 @@
+# === Project Context =========================================================
+# React + TypeScript frontend with rrweb session recording and export.
+# Node + Puppeteer tooling in /tools for replay + geometry extraction.
+
+# === General Editing Rules ===================================================
+
+- Prefer small, minimal diffs. Do not refactor unrelated code unless explicitly asked.
+- Preserve existing file structure, exports, and naming unless I request a rename or refactor.
+- Do not introduce new dependencies unless explicitly requested.
+- When creating new files, prefer adding them rather than modifying existing files heavily.
+
+# === TypeScript / React ======================================================
+
+- Use TypeScript for React source files under src/, with .tsx extension.
+- Prefer functional React components and React hooks.
+- Do not change existing props types, component names, or exports unless I explicitly ask.
+- When adding imports, group them with similar imports and keep the import style consistent with the file.
+
+# === rrweb Session Recording =================================================
+
+- Do not change the rrweb session data shape.
+- The rrweb session structure must remain:
+  { sessionId, startedAt, events }
+  where:
+  - sessionId: string
+  - startedAt: number | string (timestamp)
+  - events: rrweb event array (eventWithTime[]).
+- Do not rename sessionId, startedAt, or events.
+- When adding TypeScript types, prefer:
+  import type { eventWithTime } from "rrweb";
+
+- Do not change how sessions are stored on disk or downloaded (e.g. do not change from JSON to another format) unless explicitly requested.
+
+# === Custom Events & Routing =================================================
+
+- When using rrweb custom events for route changes, always:
+  - Use a clear type/tag like "route" (or whatever is already in code).
+  - Include at least: pathname, search, hash, at (timestamp), and sessionId.
+- Do not remove or rename existing custom event types used for routing.
+- When editing routing or recorder logic, preserve all current routes, layouts, and navigation behavior.
+
+# === Files for Recording Components ==========================================
+
+- SessionRecorder.tsx and DownloadSessionButton.tsx must live under:
+  src/recording/
+- Do not move or rename these files unless explicitly instructed.
+- When editing these files, keep public APIs (props, exports) compatible unless I ask for breaking changes.
+
+# === Mounting Recorder in App / Router =======================================
+
+- When editing src/App.tsx or other routing entry files:
+  - Do not remove or reorder existing routes.
+  - Only add recorder-related components around <BrowserRouter>, <Routes>, or layout wrappers as requested.
+  - Keep any existing providers (e.g. QueryClientProvider, ThemeProvider) unchanged unless I explicitly ask.
+
+# === Replay & Tools Directory ================================================
+
+- All replay / Puppeteer tooling must live under:
+  tools/
+- Do not move tools/replay.html or tools/extract_geometry.js once created.
+
+## replay.html (rrweb-player)
+- tools/replay.html should:
+  - Load rrweb-player correctly.
+  - Provide functions such as initReplay, seekTo, and getGeometrySnapshot if requested.
+- Do not couple tools/replay.html to the frontend build system (no React, no bundler-specific imports).
+
+## extract_geometry.js (Puppeteer)
+- tools/extract_geometry.js is a Node script using Puppeteer to:
+  - Open tools/replay.html.
+  - Load a recorded session.
+  - Iterate over timestamps / events.
+  - Call getGeometrySnapshot() in the page context.
+  - Write geometry results to a *.geometry.json file.
+- When adding imports, match the existing module style in the repository
+  (CommonJS require vs ES modules import).
+- Do not introduce heavy new libraries for this script unless I explicitly request it.
+
+# === Puppeteer & Viewport Assumptions ========================================
+
+- Default Puppeteer viewport should remain 1280x720 unless I explicitly request a different size.
+- Do not change viewport, user agent, or other environment defaults unless requested.
+
+# === package.json & NPM Scripts ==============================================
+
+- When editing package.json:
+  - Only add or minimally adjust scripts that I explicitly request (e.g. "extract-geometry").
+  - Do not modify or remove existing scripts unless I explicitly ask.
+  - Do not add new dependencies or devDependencies without explicit instruction.
+
+# === Safety / Invariants =====================================================
+
+- Never silently change:
+  - The rrweb session object shape.
+  - The location or naming of recorded session files.
+  - The general replay contract (replay.html + extract_geometry.js).
+- If a request conflicts with these rules, explain the conflict before applying changes.

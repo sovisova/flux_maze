@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rrweb Session Replay</title>
+  <link rel="stylesheet" href="https://unpkg.com/rrweb-player/dist/style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    #replay-root {
+      width: 1280px;
+      height: 720px;
+      background: #fff;
+      overflow: hidden;
+    }
+    /* Hide the rrweb-player controller */
+    .rr-controller {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="replay-root"></div>
+
+  <script src="https://unpkg.com/rrweb-player/dist/index.js"></script>
+  <script>
+    // Store the player instance globally
+    window.__player__ = null;
+
+    /**
+     * Initialize the rrweb player with the provided events.
+     * @param {Array} events - Array of rrweb eventWithTime objects
+     */
+    window.initReplay = function(events) {
+      // Clear any existing player
+      const root = document.getElementById('replay-root');
+      root.innerHTML = '';
+
+      // Create new player instance
+      window.__player__ = new rrwebPlayer({
+        target: root,
+        props: {
+          events: events,
+          autoPlay: false,
+          showController: false,
+          width: 1280,
+          height: 720,
+        },
+      });
+
+      return true;
+    };
+
+    /**
+     * Seek to a specific time offset in milliseconds.
+     * @param {number} timeOffsetMs - Time offset from session start in milliseconds
+     */
+    window.seekTo = function(timeOffsetMs) {
+      if (!window.__player__) {
+        console.error('Player not initialized. Call initReplay(events) first.');
+        return false;
+      }
+
+      window.__player__.goto(timeOffsetMs);
+      return true;
+    };
+
+    /**
+     * Get geometry snapshot of interactive elements.
+     * Selects all button, a, input, and [role] elements.
+     * @returns {Array} Array of objects with { localId, tag, role, text, x, y, width, height }
+     */
+    window.getGeometrySnapshot = function() {
+      if (!window.__player__) {
+        console.error('Player not initialized. Call initReplay(events) first.');
+        return [];
+      }
+
+      // Get the replay iframe
+      const iframe = document.querySelector('#replay-root iframe');
+      if (!iframe || !iframe.contentDocument) {
+        console.error('Replay iframe not found or not accessible.');
+        return [];
+      }
+
+      const doc = iframe.contentDocument;
+      
+      // Select all interactive elements: button, a, input, and elements with role attribute
+      const selector = 'button, a, input, [role]';
+      const elements = doc.querySelectorAll(selector);
+      
+      const snapshot = [];
+      
+      elements.forEach((el, index) => {
+        const rect = el.getBoundingClientRect();
+        
+        // Get text content (trim and limit length)
+        let text = '';
+        if (el.tagName.toLowerCase() === 'input') {
+          text = el.value || el.placeholder || '';
+        } else {
+          text = (el.textContent || '').trim();
+        }
+        // Limit text length to avoid huge strings
+        if (text.length > 100) {
+          text = text.substring(0, 100) + '...';
+        }
+
+        snapshot.push({
+          localId: index,
+          tag: el.tagName.toLowerCase(),
+          role: el.getAttribute('role') || null,
+          text: text,
+          x: rect.x,
+          y: rect.y,
+          width: rect.width,
+          height: rect.height,
+        });
+      });
+
+      return snapshot;
+    };
+  </script>
+</body>
+</html>
+
